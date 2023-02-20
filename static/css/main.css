@@ -3,3 +3,27 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+.title-zone
+{
+   background: rgb(172, 172, 255); 
+}
+
+.weather_zone
+{
+    background: burlywood;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.temp-info
+{
+    background-color: black;
+    color:white;
+
+}
+
+.weather-desc
+{
+    background-color: #ffffff;
+}

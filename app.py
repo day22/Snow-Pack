@@ -9,6 +9,9 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/weather')
+def weather():
+    return render_template('weather.html')
 
 
 # start the sercer with the 'run()' method

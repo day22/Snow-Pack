@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Snow Pack</title>
     <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
   <body>
@@ -29,9 +30,21 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 rounded shadow">
-            <div class="text-center">
-              <div class="title">
-                <h2>You have entered the weather zone</h2>
+            <div class="row">
+              <div class="temp-info m-4 col-3 text-center rounded shadow">
+                <div class="title">
+                  <div class="text-center">
+                    <h2 class="current_temp">20°F</h2>
+                    <h3>Current Temp</h3> 
+                  </div>                  
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="text-center">
+                  <div class="title">
+                    <h2 class="text-center animate__animated animate__fadeIn">You have entered the weather zone</h2>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -42,39 +55,48 @@
     <div class="weather-zone">
       <div class="container-fluid">
         <div class="row">
-          <div class="temp-info p-3 m-2 col-md-auto rounded shadow">
-            <h1>20°F</h1>
+          <div class="col-3 p-3 m-2 col rounded shadow">
+            <div class="text-center">
+              <h1>Snow Pack</h1>
+            </div>
           </div>
-          <div class="weather-desc col p-3 m-2 col rounded shadow">Expect a cloudy day with light winds and temperatures hovering around 20°F (-6°C). Conditions on the mountain will be packed powder, with a few scattered areas of ice.</div>
-        </div>
-        <div class="row">
-          <div class="temp-info p-3 m-2 col-md-auto rounded shadow">
-            <h1>16°</h1>
+          <div class="col">
+            <div class="row">
+              <div class="temp-info p-3 m-2 col-1 rounded shadow">
+                <h1>20°F</h1>
+              </div>
+              <div class="weather-desc col p-3 m-2 col rounded shadow">Expect a cloudy day with light winds and temperatures hovering around 20°F (-6°C). Conditions on the mountain will be packed powder, with a few scattered areas of ice.</div>
+            </div>
+            <div class="row">
+              <div class="temp-info p-3 m-2 col-1 rounded shadow">
+                <h1>16°F</h1>
+              </div>
+              <div class="weather-desc col p-3 m-2 col rounded shadow"> A low-pressure system moves in, bringing heavy snowfall and gusty winds. Temperatures will be in the mid-teens (-9°C), but wind chill will make it feel much colder. Expect whiteout conditions on the mountain, with several inches of fresh powder.</div>
+            </div>
+            <div class="row">
+              <div class="temp-info p-3 m-2 col-1 rounded shadow">
+                <h1>12°F</h1>
+              </div>
+              <div class="weather-desc col p-3 m-2 col rounded shadow"> The snowfall tapers off, but temperatures remain frigid, with highs only reaching the low teens (-11°C). Winds will be light to moderate, and the snow will be light and fluffy, making for excellent powder conditions.</div>
+            </div>
+            <div class="row">
+              <div class="temp-info p-3 m-2 col-1 rounded shadow">
+                <h1>28°F</h1>
+              </div>
+              <div class="weather-desc col p-3 m-2 col rounded shadow"> A sunny day is in store, with temperatures climbing to the upper 20s (-2°C). Winds will be calm, and conditions on the mountain will be packed powder with some areas of soft snow. Perfect weather for cruising the groomers!</div>
+            </div>
+            <div class="row">
+              <div class="temp-info p-3 m-2 col-1 rounded shadow">
+                <h1>21°F</h1>
+              </div>
+              <div class="weather-desc col p-3 m-2 col rounded shadow"> A new system moves in, bringing moderate snowfall and winds gusting up to 20 mph (32 km/h). Temperatures will be in the low 20s (-5°C), and conditions on the mountain will be powder to packed powder, with a few icy patches.</div>
+            </div><div class="row">
+              <div class="temp-info p-3 m-2 col-1 rounded shadow">
+                <h1>11°F</h1>
+              </div>
+              <div class="weather-desc col p-3 m-2 col rounded shadow"> Snow continues to fall, with several inches expected throughout the day. Temperatures will be in the teens (-9°C), and winds will be moderate to strong. Expect excellent powder conditions, but be sure to bundle up!</div>
+            </div>
           </div>
-          <div class="weather-desc col p-3 m-2 col rounded shadow"> A low-pressure system moves in, bringing heavy snowfall and gusty winds. Temperatures will be in the mid-teens (-9°C), but wind chill will make it feel much colder. Expect whiteout conditions on the mountain, with several inches of fresh powder.</div>
-        </div>
-        <div class="row">
-          <div class="temp-info p-3 m-2 col-md-auto rounded shadow">
-            <h1>12°F</h1>
-          </div>
-          <div class="weather-desc col p-3 m-2 col rounded shadow"> The snowfall tapers off, but temperatures remain frigid, with highs only reaching the low teens (-11°C). Winds will be light to moderate, and the snow will be light and fluffy, making for excellent powder conditions.</div>
-        </div>
-        <div class="row">
-          <div class="temp-info p-3 m-2 col-md-auto rounded shadow">
-            <h1>28°F</h1>
-          </div>
-          <div class="weather-desc col p-3 m-2 col rounded shadow"> A sunny day is in store, with temperatures climbing to the upper 20s (-2°C). Winds will be calm, and conditions on the mountain will be packed powder with some areas of soft snow. Perfect weather for cruising the groomers!</div>
-        </div>
-        <div class="row">
-          <div class="temp-info p-3 m-2 col-md-auto rounded shadow">
-            <h1>21°F</h1>
-          </div>
-          <div class="weather-desc col p-3 m-2 col rounded shadow"> A new system moves in, bringing moderate snowfall and winds gusting up to 20 mph (32 km/h). Temperatures will be in the low 20s (-5°C), and conditions on the mountain will be powder to packed powder, with a few icy patches.</div>
-        </div><div class="row">
-          <div class="temp-info p-3 m-2 col-md-auto rounded shadow">
-            <h1>11°F</h1>
-          </div>
-          <div class="weather-desc col p-3 m-2 col rounded shadow"> Snow continues to fall, with several inches expected throughout the day. Temperatures will be in the teens (-9°C), and winds will be moderate to strong. Expect excellent powder conditions, but be sure to bundle up!</div>
         </div>
       </div>
     </div>
